@@ -10,7 +10,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `icons`,
-        path: `${__dirname}/public/icons`,
+        path: `${__dirname}/content/images`,
       },
     },
     `gatsby-transformer-sharp`,
